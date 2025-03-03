@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math.floor Example</title>
+</head>
+<body>
+
+<h2>JavaScript Math.floor Example</h2>
+
+<script>
+    var rand1to10 = Math.floor(Math.random() * 10 + 1);
+    var three = Math.floor(Math.PI); 
+
+    document.write("Random number between 1 and 10: " + rand1to10 + "<br>");
+    document.write("Math.floor of PI: " + three);
+</script>
+
+</body>
+</html>
